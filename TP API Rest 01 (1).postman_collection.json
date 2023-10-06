@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "853ca215-1380-4047-ae28-dde75e85793e",
+		"name": "TP API Rest 01 (1)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29858975"
+	},
+	"item": [
+		{
+			"name": "Persona",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Pedro\",\r\n    \"apellido\": \"Hernandez\",\r\n    \"dni\": \"123456789\"\r\n}"
+						},
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"1\",\r\n    \"nombre\": \"Roberto\",\r\n    \"apellido\": \"Hernandez\",\r\n    \"dni\": \"123456789\"\r\n}"
+						},
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/v1/personas/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"v1",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autores",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/autores/1",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Facundo\",\r\n    \"apellido\": \"Ortiz\",\r\n    \"bibliografia\": \"...................\"\r\n}"
+						},
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://tp-apirest-sin-paginacion.onrender.com/api/v1/autores/1",
+							"protocol": "https",
+							"host": [
+								"tp-apirest-sin-paginacion",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
